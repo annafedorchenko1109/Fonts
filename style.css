@@ -1,0 +1,159 @@
+@font-face{
+    font-family: 'Proxima nova';
+    src:url(fonts/Proxima\ Nova\ Extra\ Condensed\ Regular.otf);
+    font-weight: 400;
+}
+@font-face{
+        font-family: 'Futura';
+        src: url(fonts/FuturaPTHeavy.otf);
+        font-weight: 400;
+    }
+@font-face{
+font-family: 'Georgia';
+src: url(fonts/georgiai.ttf);
+   font-weight: 400; }
+    @font-face{
+        font-family: 'Georgia';
+        src: url(fonts/georgia.ttf);
+        font-weight: 400;
+    }
+
+body{
+    background-color: #464f54;
+}
+main{
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top:50px ;
+}
+.title-box{
+    max-height: 200px;
+    background-color:#181818;
+    z-index: 2;
+    min-width: 870px;
+    padding-bottom: 50px;
+    
+
+}
+.title-box p{
+    padding-top: 50px;
+    color:#767676;
+    font-family: 'Proxima nova' ;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 15px;
+letter-spacing: 5px;
+padding-bottom: 15px;
+}
+.title-box h3{
+margin-top: 10px;
+margin-bottom: 20px;
+    font-family: 'Playfair Display';
+    color: #fefefe;
+    text-transform: capitalize;
+    font-size: 48px;
+font-weight: 400;
+}
+.cursor{
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 43px;
+    background-color: #edeff2;
+    opacity: 0.71;
+vertical-align: -4px;}
+.title{
+border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+margin-left: 63px;
+}
+.icons-menu{
+    background-color: #f8be2c;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 2;
+  padding-right: 100px;
+    min-height: 76px;
+    padding-left: 42px;
+ 
+    
+}
+
+.material-icons{
+  
+    padding-left: 30px;
+    font-size: 36px; 
+
+}
+.material-icons:hover{
+    color: #fefefe;
+    transform: scaleY(1.2);
+}
+a{
+    color:#fbdd95; ;
+}
+.text-contaiter{
+    background-color: #ffff;
+    max-width:1060px ;
+    z-index: 1;
+    margin: auto;
+    margin-top: -180px;
+    padding: 220px 130px 50px 55px;
+    display: flex;
+
+   
+
+}
+.author{
+ font-family: 'Proxima nova';
+font-size: 20px;
+font-weight: 400;
+color: #b4b4b4;
+letter-spacing: 6.72px;
+text-transform: uppercase;
+margin-bottom: 47px;   
+}
+h1{
+    font-family:'Futura';
+    font-weight: 400;
+    font-size:78px ;
+    color: #2a2a2a;
+    text-transform: uppercase;
+    letter-spacing: 5.28px;
+}
+.subtitle{
+    font-family: 'Georgia';
+    font-weight: 300;
+    font-style: italic;
+    color: #8f8f8f;
+    font-size: 30px;
+
+}
+.text{
+color: #000000;
+font-family: 'Georgia';
+font-weight: 400;
+font-size: 27px;
+line-height: 40.38px;
+text-align: justify;}
+
+
+.italic-sentence{
+    font-style: italic;
+}
+.content{
+    padding: 70px 65px;
+}
+.vertical-line{
+    content: '';
+    border-left:  4px solid #e8eced;
+    display: inline-block;
+    margin-top: -220px;
+    margin-bottom: -50px;
+    margin-left: 70px;
+    
+
+}
